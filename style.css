@@ -34,6 +34,33 @@ header h2{
 header .auto {
 	margin-left: 49%;
 }
+.menu{
+	margin-left: 50%;
+}
+ul{
+	position: absolute;
+}
+ul li{
+	list-style-type: none;
+	margin: 4%;
+	color: white;
+	padding: 3%;
+	padding-top: 2%;
+	padding-bottom: 0;
+	font-size: 1.2rem;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+ header .flex img{
+	transform:scale(1.2);
+	margin: 4%;
+	margin-top: 0;
+}
+.margin-top{
+	padding-top: 1%;
+}
 .box{
 	display: flex;
 	flex-direction: column;
@@ -217,7 +244,7 @@ justify-content: center;
 	margin-top: 13%;
 	fill: hsl(167, 40%, 24% );
 }
-@media (min-width:400px )and(max-width: 600px) {
+@media (min-width:450px ){
 	.box-or h3 ,.box-ch h3{
 		padding-top: 55%;
 	}
@@ -229,6 +256,7 @@ justify-content: center;
 	.flex{
 		flex-direction: column;
 	}
+
 
 }
 @media (min-width:600px ){
