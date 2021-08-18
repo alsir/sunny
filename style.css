@@ -41,17 +41,17 @@ ul{
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	margin: 5%;
+	margin: 4%;
 	width: 44%;
-	height: 30%;
+	height: 40%;
 	position: absolute;
 	background-color:white;
 }
 ul li{
-	i
+	text-align: ;
 	align-self: center;
 	list-style-type: none;
-	margin: 4%;
+	margin: 3%;
 	color:  hsl(212, 27%, 19%);
 	padding: 3%;
 	padding-top: 2%;
@@ -69,15 +69,13 @@ li a{
 li a:hover{
 	background-color: hsl(51, 100%, 49%);
 	background-size: cover;
+	border-radius: 25px;
+	padding: 10px;
 	
-
-
 }
  header .flex img{
 	transform:scale(1.2);
-	 width:35%;
 	margin: 4%;
-	 padding:2%;
 	margin-right: 0;
 	margin-top: 0;
 }
@@ -294,8 +292,9 @@ header{
 	margin: 0;
 }
 .menu{
-	margin-left: 50%;
+	margin-left: 30%;
 }
+
 ul{
 	display: flex;
 	flex-direction: row;
@@ -310,26 +309,34 @@ ul li{
 	padding-bottom: 0;
 	font-size: 1.2rem;
 }
+
 li a{
 	text-decoration: none;
 	color: white;
-
+	opacity: 0.8;
+}
+.contant{
+	padding: 10px;
+	background-size: cover;
+	border-radius: 25px;
+	background-color: white;
+	color: hsl(198, 62%, 26%);
 }
 li a:hover{
 background-color:unset;
 }
  header .flex img{
- 	width: 10%;
+ 	width: 15%;
 	transform:scale(1.2);
 	margin: 4%;
-	padding-top: 2%;
+	padding: 2%;
 	margin-top: 0;
 
 }
 .margin-top{
 	padding-top: 1%;
 }
-header .flex{
+.flex{
 	flex-direction: row;
 
 }
@@ -337,7 +344,7 @@ ul {
 	display: flex;
 	flex-direction: row;
 	float: right;
- position: absolute;
+ position: relative;
  margin-top: 0;
  padding: 0;
 }
