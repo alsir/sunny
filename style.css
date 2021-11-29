@@ -36,6 +36,13 @@ header .auto {
 .menu{
 	margin-left: 50%;
 }
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 ul{
 	display: flex;
 	flex-direction: column;
@@ -64,14 +71,15 @@ li a{
 	color:  hsl(212, 27%, 19%);
 	text-align: center;
 	margin: auto;
-	
+	padding: 10px;
 }
 li a:hover{
 	background-color: hsl(51, 100%, 49%);
 	background-size: cover;
 	border-radius: 25px;
-	padding: 10px;
-	
+}
+ul#mylinks{
+	display: none;
 }
  header .flex img{
 	transform:scale(1.2);
@@ -158,6 +166,18 @@ div{
    background-position: top;
    background-repeat: no-repeat;
    color: hsl(198, 62%, 26%);
+}
+button{
+	position: absolute;
+	display: flex;
+	top: 50px;
+	right: 0;
+	width: 25%;
+	background-color: transparent;
+	border: none;
+}
+button img{
+	width: 30%;
 }
 .box-or h3{
   padding-top: 100%;
@@ -273,16 +293,18 @@ justify-content: center;
 		margin-top: 0;
 	}
 	header .flex img{
-		width: 25%;
+		width: 30%;
 		margin-top: 0;
 	}
 	.flex{
 		flex-direction: column;
 	}
-
-
+	.menu{
+		margin-left: 30%;
+		margin-top: 17%;
+	}
 }
-@media (min-width:600px ){
+@media (min-width:630px ){
 header{
 	width: 100%;
 	height: 100vh;
@@ -290,9 +312,21 @@ header{
 	background-size:cover;
 	padding: 0;
 	margin: 0;
+	position: relative;
 }
+a.icon{
+	display: none;
+}
+button{
+	display: none;
+}
+
 .menu{
 	margin-left: 30%;
+	margin-top: 0;
+}
+li a:hover{
+	padding:0;
 }
 
 ul{
@@ -316,7 +350,7 @@ li a{
 	opacity: 0.8;
 }
 .contant{
-	padding: 10px;
+	padding: 8px;
 	background-size: cover;
 	border-radius: 25px;
 	background-color: white;
@@ -326,11 +360,12 @@ li a:hover{
 background-color:unset;
 }
  header .flex img{
- 	width: 15%;
+ 	width: 16%;
+ 	height: 5%;
 	transform:scale(1.2);
-	margin: 4%;
+	margin: 1%;
 	padding: 2%;
-	margin-top: 0;
+	margin-top: 2.5%;
 
 }
 .margin-top{
@@ -345,8 +380,8 @@ ul {
 	flex-direction: row;
 	float: right;
  position: relative;
- margin-top: 0;
- padding: 0;
+ margin-top:50%;
+ padding: 2%;
 }
 header h2{
 	margin-top: 0;
@@ -356,7 +391,7 @@ header h2{
 	flex-direction: row-reverse;
 }
 .box img{
-	width: 98%;
+	width: 118%;
 	height: 50%;
 }
 .box h3{
