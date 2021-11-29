@@ -34,7 +34,8 @@ header .auto {
 	margin-left: 49%;
 }
 .menu{
-	margin-left: 50%;
+	margin-left: 25%;
+	margin-top: 18%;
 }
 .topnav a.icon {
   background: black;
@@ -49,8 +50,8 @@ ul{
 	align-content: center;
 	justify-content: center;
 	margin: 4%;
-	width: 44%;
-	height: 40%;
+	width: 50%;
+	height: 30%;
 	position: absolute;
 	background-color:white;
 }
@@ -85,7 +86,8 @@ ul#mylinks{
 	transform:scale(1.2);
 	margin: 4%;
 	margin-right: 0;
-	margin-top: 0;
+	margin-top: 5%;
+	width: 40%;
 }
 .margin-top{
 	padding-top: 1%;
